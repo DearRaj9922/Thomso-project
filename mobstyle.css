@@ -1,4 +1,10 @@
 @media (max-width:61.25em){
+    body{
+        width: 100%;
+        padding:0;
+        margin: 0;
+        align-items: center;
+    }
     .main{
         text-align: center;
         background-image: none;
@@ -115,7 +121,7 @@
     }
     .lastscroll{
         background-image: none;
-        background-color:rgb(36, 36, 62); ;
+        background-color:rgb(36, 36, 62);
     }
     .lastscroll h2{
         color: white;
@@ -156,6 +162,16 @@
     .copyright{
         margin-left: 0;
         margin-top:-8% ;
+    }
+
+    .mobfooter{
+        display: inline-block;
+        width:100%;
+        background:white;
+        margin-top: -6.5%;
+    }
+    .deskfooter{
+        display: none;
     }
 
 }
